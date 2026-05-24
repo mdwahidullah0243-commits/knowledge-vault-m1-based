@@ -16,7 +16,7 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 8px;
 }
 
 .btn:hover {
@@ -210,4 +210,35 @@
     color: #001931;
     font-size: 16px;
     font-weight: 500;
+}
+
+
+/* Challenge Part */
+
+#challenge {
+    background-color: #F7F6F2;
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 60px 40px 44px 40px;
+    border-radius: 12px;
+}
+
+.challenge-title {
+    color: #001931;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+.challenge-sub,
+.challenge-bottom-line {
+    margin-bottom: 16px;
+    color: #627382;
+    font-size: 16px;
+    text-align: center;
 }
