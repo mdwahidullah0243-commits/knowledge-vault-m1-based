@@ -143,9 +143,9 @@
     justify-content: center;
     gap: 8px;
     text-align: center;
-    border: 1px solid #bbbabaa8;
+    border: 1px solid #bbbaba36;
     border-radius: 12px;
-    box-shadow: 0px 8px 12px #bbbabaa8;
+    box-shadow: 0px 4px 8px #bbbabaa8;
     padding: 50px 20px 20px 20px;
 }
 
@@ -163,4 +163,51 @@
 
 .notes-card-sub {
     color: #627382;
+}
+
+
+/* The Solution */
+#solution {
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 28px;
+}
+.solution-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.solution-tag {
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.solution-title {
+    color: #001931;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.solution-sub {
+    color: #627382;
+    font-size: 16px;
+}
+
+.solution-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.solution-list-item {
+    color: #001931;
+    font-size: 16px;
+    font-weight: 500;
 }
