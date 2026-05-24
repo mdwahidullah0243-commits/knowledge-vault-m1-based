@@ -18,6 +18,7 @@
     align-items: center;
     gap: 12px;
 }
+
 .btn:hover {
     transform: scale(1.1);
     transition: all 0.2s;
@@ -58,6 +59,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .tag {
     display: flex;
     align-items: center;
@@ -78,11 +80,13 @@
     color: white;
     margin-bottom: 8px;
 }
+
 .color-heading {
     color: #30B868;
     font-size: 62px;
     font-weight: 700;
 }
+
 .banner-sub {
     color: white;
     font-size: 18px;
@@ -90,13 +94,73 @@
     text-align: center;
     margin-bottom: 22px;
 }
+
 .banner-btn {
     display: flex;
     align-items: center;
     gap: 20px;
 }
+
 .banner-right-btn {
     background-color: transparent;
     border: 1px solid white;
     gap: 8px;
+}
+
+
+/* Notes Don't Fail, Structure Does */
+#notes {
+    margin-top: 40px;
+}
+
+.notes-heading {
+    color: #001931;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.notes-sub {
+    color: #627382;
+    font-size: 16px;
+    text-align: center;
+}
+
+.notes-card-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.notes-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    text-align: center;
+    border: 1px solid #bbbabaa8;
+    border-radius: 12px;
+    box-shadow: 0px 8px 12px #bbbabaa8;
+    padding: 50px 20px 20px 20px;
+}
+
+.notes-card-logo {
+    background-color: #F95555;
+    padding: 12px 14px;
+    border-radius: 50%;
+}
+
+.notes-card-title {
+    color: #001931;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.notes-card-sub {
+    color: #627382;
 }
